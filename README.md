@@ -6,14 +6,21 @@
 
 **Real-Time Monitoring • Intelligent Insights • Disaster Awareness**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Launch%20PulseAI-00C7D9?style=for-the-badge&logo=vercel&logoColor=white)](https://pulse-ai-two-theta.vercel.app)
+<p>
+  <a href="https://pulse-ai-two-theta.vercel.app">
+    <img src="https://img.shields.io/badge/🌐_LIVE_DEMO-Launch_PulseAI-00C7D9?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
+  </a>
+  <a href="https://github.com/hemanthmaddula146-sudo/PulseAI">
+    <img src="https://img.shields.io/badge/GITHUB-View_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository">
+  </a>
+</p>
 
 [![Next.js](https://img.shields.io/badge/Next.js-App%20Router-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict%20Typing-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Styling-06B6D4?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
 [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat-square&logo=vercel)](https://vercel.com/)
 
-**[Live Application](https://pulse-ai-two-theta.vercel.app) · [Source Code](https://github.com/hemanthmaddula146-sudo/PulseAI)**
+**[🚀 Open Live Application](https://pulse-ai-two-theta.vercel.app) · [💻 Explore Source Code](https://github.com/hemanthmaddula146-sudo/PulseAI)**
 
 </div>
 
@@ -21,9 +28,13 @@
 
 ## 📌 Overview
 
-**PulseAI** is an AI-powered disaster intelligence platform that brings real-time earthquake information, natural-event tracking, interactive mapping, and AI-generated safety guidance into one modern dashboard.
+**PulseAI** is an AI-powered disaster intelligence platform that brings earthquake information, natural-event tracking, interactive mapping, and AI-generated safety guidance together in one modern dashboard.
 
-Built with Next.js, TypeScript, public disaster data sources, and Google Gemini, PulseAI helps users explore disaster-related information through a unified and accessible interface.
+Built using Next.js, TypeScript, public disaster data sources, and Google Gemini, PulseAI helps users explore disaster-related information through a unified and accessible interface.
+
+### 🎯 Mission
+
+Make disaster information easier to explore and understand by combining real-time data sources, interactive visualization, and AI-powered assistance.
 
 ## ✨ Key Features
 
@@ -53,7 +64,7 @@ Built with Next.js, TypeScript, public disaster data sources, and Google Gemini,
 | Deployment | Vercel |
 | Version Control | Git, GitHub |
 
-## 🏗️ Architecture
+## 🏗️ Application Architecture
 
 PulseAI uses the Next.js App Router, with API route handlers for data retrieval and AI requests.
 
