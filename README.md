@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 PulseAI — AI-Powered Disaster Intelligence Platform
 
-## Getting Started
+PulseAI is an AI-powered disaster intelligence platform designed to monitor earthquakes and natural events, visualize disaster information, and provide AI-driven safety guidance.
 
-First, run the development server:
+The platform brings disaster information and safety assistance together in an interactive dashboard.
+
+## ✨ Features
+
+- 🌎 **Earthquake Monitoring** — Retrieve and explore earthquake information.
+- 🌪️ **Natural Event Tracking** — View natural events using NASA's Earth Observatory Natural Event Tracker (EONET).
+- 🗺️ **Interactive Map** — Visualize earthquake locations and geographic information.
+- 🤖 **AI Assistant** — Get AI-generated answers and disaster safety guidance.
+- 🚨 **Alerts and Risk Awareness** — Access disaster-related information and safety guidance.
+- 🌦️ **Weather Information** — Explore weather information through the dashboard.
+- 📊 **Interactive Dashboard** — Navigate disaster monitoring features from one place.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js, React, TypeScript
+- **Styling:** Tailwind CSS
+- **Mapping:** Leaflet and React Leaflet
+- **AI:** Google Gemini API
+- **Data Sources:** USGS earthquake feeds and NASA EONET
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Install the following before running the project:
+
+- Node.js
+- npm
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/hemanthmaddula146-sudo/PulseAI.git
+```
+
+### 2. Open the project directory
+
+```bash
+cd PulseAI/frontend
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure environment variables
+
+Create a `.env.local` file inside the `frontend` directory.
+
+Add your Google Gemini API key:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key
+```
+
+Replace `your_gemini_api_key` with your own API key.
+
+**Security:** Never commit `.env.local` or expose your API key in public repositories.
+
+### 5. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 6. Open PulseAI
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+PulseAI/
+└── frontend/
+    ├── app/
+    │   ├── ai-assistant/
+    │   ├── alerts/
+    │   ├── api/
+    │   │   ├── ai-assistant/
+    │   │   ├── earthquakes/
+    │   │   └── natural-events/
+    │   ├── components/
+    │   ├── earthquakes/
+    │   ├── natural-events/
+    │   ├── reports/
+    │   ├── settings/
+    │   ├── weather/
+    │   ├── layout.tsx
+    │   └── page.tsx
+    ├── public/
+    ├── package.json
+    └── README.md
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔐 API Key Security
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Keep API keys in local environment variables.
+- Do not upload `.env.local` to GitHub.
+- Configure the required environment variables separately when deploying.
 
-## Deploy on Vercel
+## 🎯 Project Goal
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+PulseAI aims to make disaster information easier to access and understand by combining real-time event data, interactive visualization, and AI-powered safety guidance.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👨‍💻 Author
+
+Developed as an AI-powered disaster intelligence project.
+
+## 📄 License
+
+No license has been specified yet.
