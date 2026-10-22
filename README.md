@@ -88,3 +88,8 @@ PulseAI/
 ├── public/
 ├── package.json
 └── README.md
+## 📄 License
+
+PulseAI is licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Hemanth Maddula.
